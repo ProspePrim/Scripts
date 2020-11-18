@@ -1,0 +1,56 @@
+{
+    "clusters": [
+        {
+            "nodes": [
+                {
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "qztst-kubeworker-01"
+                            ],
+                            "storage": [
+                                "192.168.122.114"
+                            ]
+                        },
+                        "zone": 1
+                    },
+                    "devices": [
+                        "/dev/loop9"
+                    ]
+                },
+                {
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "qztst-kubeworker-02"
+                            ],
+                            "storage": [
+                                "192.168.122.207"
+                            ]
+                        },
+                        "zone": 1
+                    },
+                    "devices": [
+                        "/dev/loop9"
+                    ]
+                },
+                {
+                    "node": {
+                        "hostnames": {
+                            "manage": [
+                                "qztst-kubeworker-03"
+                            ],
+                            "storage": [
+                                "192.168.122.9"
+                            ]
+                        },
+                        "zone": 1
+                    },
+                    "devices": [
+                        "/dev/loop9"
+                    ]
+                }
+            ]
+        }
+    ]
+}
